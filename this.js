@@ -23,8 +23,3 @@ class Motor {
 }
  let motor = new Motor ('red', 'x125');
  motor.getWarna();
-
-// CLASS CONTEXT
-
-
-// RELEASE 1
