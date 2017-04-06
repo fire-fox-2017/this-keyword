@@ -8,7 +8,7 @@ class Keywords {
 
   lower(){
     this._words = this._words.toLowerCase()
-    return this._words
+    return this
   }
 }
 
@@ -18,6 +18,7 @@ class Keywords {
 
 let get = new Keywords('heEllEn')
 console.log(get.lower());
+console.log(this);
 
 // RELEASE 1
 /*
