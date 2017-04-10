@@ -17,3 +17,25 @@
   pertama adalah 'null' atau atau bukan sebuah objek, maka 'this' mengacu
   pada global object.
 */
+
+/*
+class Sample {
+    constructor(num1, num2) {
+        this.num1 = num1
+        this.num2 = num2
+    }
+
+    method1() {
+        return this.num1 > this._num2
+    }
+
+    method2() {
+        return this.num2 > this._num1
+    }
+
+}
+
+let sample = new Sample()
+console.log(sample.method1());
+console.log(sample.method2());
+*/
